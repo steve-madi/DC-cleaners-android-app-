@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "tobi",
+    "name": "DC Cleaners",
     "slug": "tobi",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.cozmic.tobi"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "9ca653de-0c79-47e3-a8a2-639313c0b527"
+      }
     }
   }
 }
